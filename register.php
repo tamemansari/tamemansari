@@ -13,11 +13,11 @@
   <form method="post" action="register.php">
   	<?php include('errors.php'); ?> 
   	<div class="input-group">
-  	  <label>Username</label>
+  	  <label>User_name</label>
   	  <input type="text" name="username" >
   	</div>
   	<div class="input-group">
-  	  <label>Email</label>
+  	  <label>Email_Id</label>
   	  <input type="email" name="email" >
   	</div>
   	<div class="input-group">
@@ -25,7 +25,7 @@
   	  <input type="password" name="password_1">
   	</div>
   	<div class="input-group">
-  	  <label>Confirm password</label>
+  	  <label>Confirm_password</label>
   	  <input type="password" name="password_2">
   	</div>
   	<div class="input-group">
